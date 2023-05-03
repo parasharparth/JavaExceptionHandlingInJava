@@ -1,7 +1,7 @@
 public class Basic {
 
 	public static void main(String[] args) throws ArithmeticException {
-		System.out.println(10/0);   // --> means that whenever you use throws, flow will disrupt and end the program
+		//System.out.println(10/0);   // --> means that whenever you use throws, flow will disrupt and end the program
 		exception1();   // --> means that try catch block will allow for the flow to run smoothly after handling the exception but here also, within method, the flow will stop
 		exception2();  //--> Means that throw new exception also disrupts the flow of program and will not allow for things to run
 	}
